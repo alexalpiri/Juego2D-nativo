@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrapa el cuadrado</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <h1>ATRAPA EL CUADRADO</h1>
+    <p>Haz clic en el cuadrado tantas veces como puedas antes de que termine el tiempo.</p>
+    <div class="marcador">
+        <p>Puntos: <span id="puntos">0</span></p>
+        <p>Tiempo: <span id="tiempo">30</span> segundos</p>
+    </div>
+    <div id="zonaJuego">
+        <button id="cuadrado" aria-label="Atrapar cuadrado"></button>
+        <div id="pantallaInicio">
+            <h2 id="titulo">¿Preparado?</h2>
+            <p id="mensaje">
+                Tienes 30 segundos para conseguir puntos.
+            </p>
+            <button id="botonInicio">Empezar</button>
+        </div>
+    </div>
+    <p id="resultado"></p>
+</body>
+</html>
